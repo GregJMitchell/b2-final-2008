@@ -1,6 +1,6 @@
 require "rails_helper"
 
-describe Patient, type: :model do
+describe DoctorPatient, type: :model do
   describe 'relationships' do
     it { should belong_to(:doctor) } 
     it { should belong_to(:patient) } 
